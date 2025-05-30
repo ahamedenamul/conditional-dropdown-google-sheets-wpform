@@ -1,0 +1,23 @@
+This project provides a JavaScript solution to create conditional (dependent) dropdowns in WPForms, dynamically powered by data from Google Sheets. It’s ideal for WordPress site administrators or developers who want to create smart, user-responsive forms without manually updating dropdown options.
+
+Using the Google Visualization API, this script fetches structured data from a published Google Sheet and maps the data into two dropdown fields:
+
+First Dropdown (Parent): Populated with values from the first column of the sheet.
+
+Second Dropdown (Child): Dynamically populated with related values from the same row based on the first dropdown's selection.
+
+The script leverages Choices.js to enhance the appearance and functionality of the select fields, providing a modern, searchable UI.
+
+Key Features
+Fetches live data from Google Sheets
+
+Populates WPForms dropdown fields based on Google Sheet columns and rows
+
+Implements a conditional (dependent) logic between two dropdowns
+
+Uses Choices.js for better dropdown UI/UX
+
+No backend coding required — pure JavaScript and frontend integration
+
+Use Case Example
+Suppose you’re creating a form where the first dropdown lets users select a Product Category, and the second dropdown dynamically shows Products available in that category. With this solution, the entire dataset can live in a Google Sheet, and updates made there are instantly reflected on the form.
